@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+}
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.logo a:hover {
+    color: white;
+}
+li {
+    font-size: 30px;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: blueviolet;
+}
